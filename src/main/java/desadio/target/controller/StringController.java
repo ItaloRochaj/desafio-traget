@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class StringController {
+public class StringController{
 
     @GetMapping("/countA")
     public String countAInString(@RequestParam String input) {

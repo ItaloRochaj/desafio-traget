@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SomaController {
 
     @GetMapping("/soma")
-    public String calcularSoma() {
+    public String calcularSoma(){
         int INDICE = 12, SOMA = 0, K = 1;
 
         while (K < INDICE) {

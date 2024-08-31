@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InterruptorController {
 
     @GetMapping("/interruptor")
-    public String descobrirInterruptores() {
+    public String descobrirInterruptores(){
 
         boolean interruptor1 = true;
 

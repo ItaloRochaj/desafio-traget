@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/fibonacci")
-public class FibonacciController {
+public class FibonacciController{
 
     @GetMapping("/{numero}")
     public String verificarFibonacci(@PathVariable int numero) {
