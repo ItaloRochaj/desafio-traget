@@ -8,17 +8,11 @@ public class InterruptorController {
 
     @GetMapping("/interruptor")
     public String descobrirInterruptores() {
-        // Simulação da lógica para descobrir qual interruptor controla qual lâmpada
 
-        // Passo 1: Ligue o primeiro interruptor e espere alguns minutos
         boolean interruptor1 = true;
-        // Simula o tempo esperado (deixe ligado por um tempo)
 
-        // Passo 2: Desligue o primeiro interruptor e ligue o segundo
         interruptor1 = false;
         boolean interruptor2 = true;
-
-        // Passo 3: Vá até a sala das lâmpadas e observe
         boolean lampada1Quente = true; // Simulação: a lâmpada 1 estava quente
         boolean lampada2Ligada = true; // Simulação: a lâmpada 2 está ligada
         boolean lampada3Fria = true; // Simulação: a lâmpada 3 está fria

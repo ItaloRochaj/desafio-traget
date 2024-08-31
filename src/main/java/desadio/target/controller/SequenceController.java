@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/sequence")
 public class SequenceController {
-
     @GetMapping("/a")
     public String sequenceA() {
         return "Próximo número da sequência (a): " + (7 + 2); // 9

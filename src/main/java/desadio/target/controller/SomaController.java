@@ -14,7 +14,6 @@ public class SomaController {
             K = K + 1;
             SOMA = SOMA + K;
         }
-
         return "O valor final de SOMA é: " + SOMA; // Valor esperado: 78
     }
 }

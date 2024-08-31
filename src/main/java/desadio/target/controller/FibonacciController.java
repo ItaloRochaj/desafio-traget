@@ -18,7 +18,6 @@ public class FibonacciController {
             return "O número " + numero + " não pertence à sequência de Fibonacci.";
         }
     }
-
     private boolean isFibonacci(int numero) {
         int a = 0, b = 1;
         while (b < numero) {

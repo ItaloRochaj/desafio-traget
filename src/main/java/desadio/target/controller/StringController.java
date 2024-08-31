@@ -12,7 +12,6 @@ public class StringController {
         int count = countLetterA(input);
         return "A letra 'a' ocorre " + count + " vezes na string.";
     }
-
     private int countLetterA(String str) {
         int count = 0;
         str = str.toLowerCase();
